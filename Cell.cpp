@@ -1,7 +1,7 @@
 #include "Cell.h"
 
-Cell::Cell(LifeGame * life, int x, int y, bool state)
- :life(life), x(x), y(y), state(state), newstate(state)
+Cell::Cell(LifeGame * life, int y, int x, bool state)
+    :life(life), y(y), x(x), state(state), newstate(state)
 {
     //To-do: add checks
 }
@@ -15,3 +15,9 @@ void Cell::change()
 {
     state = newstate;
 }
+
+std::ostream& operator<<(std::ostream& out, const Cell& c)
+{
+    return out <<(c.isalive()?'X':' ');
+}
+

@@ -1,9 +1,19 @@
 # depslib dependency file v1.0
-1495048299 source:e:\cpp\univer\gameoflife\cell.cpp
+1495052696 source:e:\cpp\univer\gameoflife\cell.cpp
 	"Cell.h"
 
-1495048189 e:\cpp\univer\gameoflife\cell.h
-
-1385320478 source:e:\cpp\univer\gameoflife\main.cpp
+1495052386 e:\cpp\univer\gameoflife\cell.h
 	<iostream>
+
+1495052838 source:e:\cpp\univer\gameoflife\main.cpp
+	<iostream>
+	"LifeGame.h"
+
+1495052871 source:e:\cpp\univer\gameoflife\lifegame.cpp
+	<iostream>
+	<string>
+	"LifeGame.h"
+
+1495052519 e:\cpp\univer\gameoflife\lifegame.h
+	"Cell.h"
 
