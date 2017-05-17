@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1495048299 source:e:\cpp\univer\gameoflife\cell.cpp
+	"Cell.h"
+
+1495048189 e:\cpp\univer\gameoflife\cell.h
+
+1385320478 source:e:\cpp\univer\gameoflife\main.cpp
+	<iostream>
+
