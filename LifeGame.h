@@ -10,7 +10,13 @@ public:
     ~LifeGame();
     void print()const;
     void step();
-    Cell* getCell(int y, int x);
+    Cell* get_cell(int y, int x);
+
+    int get_cols()const
+    { return cols; }
+
+    int get_rows()const
+    { return rows; }
 
     //LifeGame(const LifeGame& other);
     //LifeGame& operator=(const LifeGame& other);

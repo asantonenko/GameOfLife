@@ -26,7 +26,7 @@ LifeGame::~LifeGame()
 }
 
 
-Cell* LifeGame::getCell(int y, int x)
+Cell* LifeGame::get_cell(int y, int x)
 {
     return board[y][x];
 }

@@ -11,7 +11,7 @@ public:
     Cell(LifeGame * life, int y, int x, bool state);
     void calculate();
     void change();
-    bool isalive()const
+    bool is_alive()const
     {
         return state;
     }
@@ -19,6 +19,8 @@ public:
     {
         newstate=state=value;
     }
+protected:
+    int get_neighbour_count()const;
 private:
     LifeGame * life;
     int y,x;
