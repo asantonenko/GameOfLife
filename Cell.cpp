@@ -1,6 +1,17 @@
 #include "Cell.h"
 
-Cell::Cell()
+Cell::Cell(LifeGame * life, int x, int y, bool state)
+ :life(life), x(x), y(y), state(state), newstate(state)
 {
-    //ctor
+    //To-do: add checks
+}
+
+void Cell::calculate()
+{
+    //To-do: implement
+}
+
+void Cell::change()
+{
+    state = newstate;
 }
