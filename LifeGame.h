@@ -22,7 +22,7 @@ public:
     //LifeGame& operator=(const LifeGame& other);
 protected:
 private:
-    Cell*** board;
+    Cell*** board; //можно использовать вместо Cell*** тип vector<vector<Cell*>>
     int rows, cols;
 };
 
