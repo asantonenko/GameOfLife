@@ -21,8 +21,8 @@ LifeGame::~LifeGame()
         for (int j=0; j<cols; j++)
             delete board[i][j];
     for (int i=0; i<rows; i++)
-        delete board[i];
-    delete board;
+        delete[] board[i];
+    delete[] board;
 }
 
 
