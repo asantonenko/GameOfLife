@@ -3,6 +3,8 @@
 
 #include<iostream>
 
+/*Не могу использовать #include "LifeGame.h" - иначе порочный круг!
+  вместо этого использую предварительное объявление класса */
 class LifeGame;
 
 class Cell
